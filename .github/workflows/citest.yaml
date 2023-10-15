@@ -4,6 +4,7 @@ on : [ Push ]
 jobs:
   Tests:
     runs-on: ubuntu-latest
-    steps
+    steps:
+      - uses: actions/checkout@v2 
       - run: echo " The job was automatically triggered by a ${{ github.event-name}} event."
       - run: python.main.py 
