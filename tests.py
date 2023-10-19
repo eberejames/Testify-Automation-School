@@ -8,6 +8,7 @@ class TestMain(unittest. TestCase):
         self.assertEqual(main.addition(5, 5), 10, "Should be 10")
         self.assertEqual(main.addition(40, 20), 60, "Should be 60")
         self.assertEqual(main.addition(-3, 2), "Should be -1")
+        self.assertEqual(main.addition(2, 2), 4, "Should be 4")
 
 if __name__ == '__main__':
     unittest.main()
