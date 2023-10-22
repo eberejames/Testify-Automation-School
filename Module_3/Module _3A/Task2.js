@@ -1,4 +1,4 @@
-// FUN FACTS ABOUT JAVASCRIPT
+// FUN FACTS ABOUT JAVASCRIPT 
 
 // Despite its name, JavaScript is not related to the Java programming language
 // It was originally called "LiveScript" but was later renamed "JavaScript" to capitalize on the popularity of Java
