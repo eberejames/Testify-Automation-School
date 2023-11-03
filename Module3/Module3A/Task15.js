@@ -36,7 +36,7 @@ reading: true,
 
 for(let numbers = 0; numbers < 5; numbers++)
 {
-if(books[numbers].reading){
+if(books[numbers].reading===true){
 console.log("The title of this book is " +books[numbers].title)
 console.log("The book's description is " +books[numbers].description)
 console.log("The book's page number is " +books[numbers].numberOfPages)
