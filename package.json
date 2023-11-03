@@ -1,0 +1,11 @@
+{
+  "name": "testify-automation-school",
+  "version": "1.0.0",
+  "description": "Test Repository for CI CD Course2",
+  "main": "Task16.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
