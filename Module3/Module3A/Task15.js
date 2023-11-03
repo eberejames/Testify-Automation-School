@@ -40,7 +40,7 @@ if(books[numbers].reading){
 console.log("The title of this book is " +books[numbers].title)
 console.log("The book's description is " +books[numbers].description)
 console.log("The book's page number is " +books[numbers].numberOfPages)
-console.log("The books's author is " +books[numbers].authour)
+console.log("The book's author is " +books[numbers].authour)
 console.log("**************************")
 
 }
