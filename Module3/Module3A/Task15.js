@@ -34,9 +34,8 @@ reading: true,
 
 ]
 
-for(let numbers = 0; numbers < 5; numbers++)
-{
-if(books[numbers].reading===true){
+for(let numbers = 0; numbers < 5; numbers++) {
+if(books[numbers].reading === true) {
 console.log(books[numbers].title)
 console.log(books[numbers].description)
 console.log(books[numbers].numberOfPages)
