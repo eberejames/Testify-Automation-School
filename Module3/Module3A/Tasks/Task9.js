@@ -1,6 +1,6 @@
 
 
-|function calculateAreaOfRectangle(length, width){
+function calculateAreaOfRectangle(length, width){
 
     const multiply = length * width;
     console.log(multiply);
