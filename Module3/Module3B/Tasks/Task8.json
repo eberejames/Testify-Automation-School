@@ -15,7 +15,9 @@
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
-							"});"
+							"});",
+							"",
+							"postman.setNextRequest (\"Place an order\")"
 						],
 						"type": "text/javascript"
 					}
@@ -45,8 +47,16 @@
 						"exec": [
 							"pm.test(\"Status code is 200\", function () {",
 							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"",
+							"",
+							"pm.test(\"verify the id number of a non-fiction book is untamed\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData[4].id).to.eql(5);",
+							"",
+							"    ",
 							"});"
-							
 						],
 						"type": "text/javascript"
 					}
@@ -68,12 +78,13 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseUrl}}/books",
+					"raw": "{{baseUrl}}/books/",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
-						"books"
+						"books",
+						""
 					],
 					"query": [
 						{
@@ -167,28 +178,22 @@
 							"    pm.expect(pm.response.code).to.be.oneOf([201, 202]);",
 							"});",
 							"",
-							""
+							"",
+							"pm.environment.set(\"Id\", \"1\");",
+							"",
+							"",
+							"postman.setNextRequest (null)"
 						],
 						"type": "text/javascript"
 					}
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{Token}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "\n{\n  \"bookId\": 1,\n  \"customerName\": \"Jane\"\n}",
+					"raw": "\n{\n  \"bookId\": \"{{Id}}\",\n  \"customerName\": \"Peace\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -270,16 +275,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{Token}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -309,16 +304,6 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{Token}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "GET",
 				"header": [],
 				"body": {
@@ -347,16 +332,6 @@
 		{
 			"name": "Update an order",
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{Token}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "PATCH",
 				"header": [],
 				"body": {
@@ -397,16 +372,6 @@
 				}
 			],
 			"request": {
-				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "{{Token}}",
-							"type": "string"
-						}
-					]
-				},
 				"method": "DELETE",
 				"header": [],
 				"body": {
@@ -419,19 +384,29 @@
 					}
 				},
 				"url": {
-					"raw": "{{baseUrl}}/orders/d3ntjyszMTlejCc1VcGqWQ",
+					"raw": "{{baseUrl}}/orders/6Ji28xFuQ5bjTKDVtoFk4",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"orders",
-						"d3ntjyszMTlejCc1VcGqWQ"
+						"6Ji28xFuQ5bjTKDVtoFk4"
 					]
 				}
 			},
 			"response": []
 		}
 	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{Token}}",
+				"type": "string"
+			}
+		]
+	},
 	"event": [
 		{
 			"listen": "prerequest",
@@ -455,7 +430,7 @@
 	"variable": [
 		{
 			"key": "Token",
-			"value": "",
+			"value": "47058f2a95f9c8a03f167541d6bb9903d13c62defec2a984ae8025792ba639c3",
 			"type": "string"
 		}
 	]
