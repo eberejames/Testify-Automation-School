@@ -1,0 +1,62 @@
+API Collection
+
+→ GET Status
+  GET https://simple-books-api.glitch.me/status [200 OK, 226B, 544ms]
+  ✓  Status code is 200
+
+→ GET  books
+  GET https://simple-books-api.glitch.me/books/ [200 OK, 631B, 119ms]
+  ✓  Status code is 200
+  ✓  verify the id number of a non-fiction book is untamed
+
+→ Get a single book
+  GET https://simple-books-api.glitch.me/books/2 [200 OK, 338B, 120ms]
+  ✓  Status code is 200
+
+→ Place an order
+  POST https://simple-books-api.glitch.me/orders [201 Created, 267B, 777ms]
+  ✓  Successful POST request
+
+→ Register an API Client
+  POST https://simple-books-api.glitch.me/api-clients/ [409 Conflict, 283B, 876ms]
+
+→ Get all orders
+  GET https://simple-books-api.glitch.me/orders [200 OK, 2.59kB, 274ms]
+  ✓  Status code is 200
+
+→ Get an order
+  GET https://simple-books-api.glitch.me//orders/3ntjyszMTlejCc1VcGqWQ [200 OK, 390B, 647ms]
+
+→ Update an order
+  PATCH https://simple-books-api.glitch.me/orders/MaQvKhaHt1849Gkb0jOSU [404 Not Found, 270B, 336ms]
+
+→ Delete an order
+  DELETE https://simple-books-api.glitch.me/orders/6Ji28xFuQ5bjTKDVtoFk4 [404 Not Found, 365B, 122ms]
+  1. Status code is 204
+
+┌─────────────────────────┬─────────────────────┬────────────────────┐
+│                         │            executed │             failed │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              iterations │                   1 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│                requests │                   9 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│            test-scripts │                  15 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│      prerequest-scripts │                   9 │                  0 │
+├─────────────────────────┼─────────────────────┼────────────────────┤
+│              assertions │                   7 │                  1 │
+├─────────────────────────┴─────────────────────┴────────────────────┤
+│ total run duration: 4.1s                                           │
+├────────────────────────────────────────────────────────────────────┤
+│ total data received: 3.34kB (approx)                               │
+├────────────────────────────────────────────────────────────────────┤
+│ average response time: 423ms [min: 119ms, max: 876ms, s.d.: 278ms] │
+└────────────────────────────────────────────────────────────────────┘
+
+  #  failure        detail                                                 
+                                                                           
+ 1.  AssertionErr…  Status code is 204                                     
+                    expected response to have status code 204 but got 404  
+                    at assertion:0 in test-script                          
+                    inside "Delete an order"    
