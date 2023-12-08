@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da441d4b-b2f9-44dd-8914-243f01ac4a84" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/Task6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/Task8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Module4/Tasks/com/testifytas/task7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module3/Module3A/CodingChallenge/CodeChallenge2.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module3/Module3A/CodingChallenge/CodeChallenge2.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2Z8v3tvchNUl34QoAa5S2iHxhBs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "dev",
+    "onboarding.tips.debug.path": "/Users/e.b/Desktop/cicdtestify2/Testify-Automation-School/Module 4/Tasks/Task1/FirstJavaProject/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Task4">
+    <configuration name="JavaDataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testifyTas.JavaDataTypes" />
+      <module name="FirstJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="FirstJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task3" />
+      <module name="FirstJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task4" />
+      <module name="FirstJavaProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Task4" />
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.JavaDataTypes" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da441d4b-b2f9-44dd-8914-243f01ac4a84" name="Changes" comment="" />
+      <created>1701816331136</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701816331136</updated>
+    </task>
+    <servers />
+  </component>
+</project>
