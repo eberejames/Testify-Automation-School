@@ -1,4 +1,4 @@
-package com.task11;
+package com.Task11;
 
 public class ClassA {
     static String myName (String name) {
@@ -6,7 +6,7 @@ public class ClassA {
     }
 
    // public static void main(String[] args) {
-       // String z = myName("ebere");
+       // String z = myName("Ebere");
        // System.out.println(z);
 
    // }

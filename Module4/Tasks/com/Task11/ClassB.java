@@ -1,4 +1,4 @@
-package com.task11;
+package com.Task11;
 
 public class ClassB {
     public static void main(String[] args) {
