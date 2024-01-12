@@ -6,7 +6,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 public class SaucedemoCssLocationStrategy {
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "//Users/e.b/Documents/Testify-Automation-School/Module4B/src/msedgedriver");
+        System.setProperty("webdriver.edge.driver", "//Users/e.b/Documents/Testify-Automation-School/Module4B/src/msedgedriver");
 
         //launch browser
         WebDriver cssLocStrt = new EdgeDriver();
