@@ -7,7 +7,7 @@ public class Saucedemo {
 
 
     public static void main(String[] args) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "//Users/e.b/Documents/Testify-Automation-School/Module4B/src/msedgedriver");
+        System.setProperty("webDriver.chrome.driver", "//Users/e.b/Documents/Testify-Automation-School/Module4B/src/msedgedriver");
 
         //launch browser
         WebDriver sauceDemo = new EdgeDriver();
