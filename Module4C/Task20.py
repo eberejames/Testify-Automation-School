@@ -25,5 +25,5 @@ man_instance = Man()
 woman_instance = Woman()
 
 # Print gender of each instance
-print("Gender of man:", man_instance.get_gender())  # Output: Gender of man: Unknown
-print("Gender of woman:", woman_instance.get_gender())  # Output: Gender of woman: Female
+print("Gender of man:", man_instance.get_gender())
+print("Gender of woman:", woman_instance.get_gender())
