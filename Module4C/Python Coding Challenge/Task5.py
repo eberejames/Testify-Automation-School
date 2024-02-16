@@ -17,5 +17,5 @@ def reverse_array(arr):
 
 original_array = [1, 10, 2.5, 69, 36]
 reversed_array = reverse_array(original_array)
-print( original_array)
-print( reversed_array)
+print(original_array)
+print(reversed_array)
